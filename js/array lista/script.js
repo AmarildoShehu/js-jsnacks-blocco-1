@@ -16,10 +16,17 @@ console.log(fruttaFrigorifero);
  console.log(fruttaFrigorifero);
 
 //  3. verificare se nell'array di frutta c'è il cocomero:
+let cocomeroPresente = false;
 
  for (let i = 0; i < fruttaFrigorifero.length; i++) {
     if (fruttaFrigorifero[i] === 'cocomero') {} 
     else {
-        cocomeroPresente = false;
+        cocomeroPresente = true;
     }
+}
+
+if (cocomeroPresente) {
+    console.log("Trovato! Devo solo preparare il cocktail.");
+} else {
+    console.log("Oh no, devo uscire a comprare il cocomero!");
 }
