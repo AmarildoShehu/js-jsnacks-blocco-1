@@ -9,3 +9,8 @@ console.log('JS OK');
 // 1. creare l'array con la frutta del frigorifero
 const fruttaFrigorifero = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino',
  'cocomero', 'limone', 'fragola'];
+console.log(fruttaFrigorifero);
+
+ // 2. aggiungere la pesca all'array della frutta
+ fruttaFrigorifero.push('pesca');
+ console.log(fruttaFrigorifero);
