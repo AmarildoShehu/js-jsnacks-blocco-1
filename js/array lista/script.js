@@ -14,3 +14,12 @@ console.log(fruttaFrigorifero);
  // 2. aggiungere la pesca all'array della frutta
  fruttaFrigorifero.push('pesca');
  console.log(fruttaFrigorifero);
+
+//  3. verificare se nell'array di frutta c'è il cocomero:
+
+ for (let i = 0; i < fruttaFrigorifero.length; i++) {
+    if (fruttaFrigorifero[i] === 'cocomero') {} 
+    else {
+        cocomeroPresente = false;
+    }
+}
